@@ -1,7 +1,7 @@
-/**
- * @author : Ranjith Suranga <suranga@ijse.lk>
- * @since : 11/26/20
- **/
+
+/*
+ * @author : Dilanka Dilshan<ehd.dilanka@gmail.com>
+ */
 
 import dashboard from './dashboard.component.html';
 import style from './dashboard.component.scss';

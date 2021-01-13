@@ -1,3 +1,7 @@
+/*
+ * @author : Dilanka Dilshan<ehd.dilanka@gmail.com>
+ */
+
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const webpack = require('webpack');
 

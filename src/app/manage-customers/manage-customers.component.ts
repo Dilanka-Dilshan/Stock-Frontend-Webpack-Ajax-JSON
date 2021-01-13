@@ -1,7 +1,7 @@
-/**
- * @author : Ranjith Suranga <suranga@ijse.lk>
- * @since : 11/26/20
- **/
+
+/*
+ * @author : Dilanka Dilshan<ehd.dilanka@gmail.com>
+ */
 
 import manageCustomers from './manage-customers.component.html';
 import style from './manage-customers.component.scss';
@@ -17,13 +17,13 @@ $("app-manage-customers").replaceWith('<div id="manage-customers">' + manageCust
 var html = '<style>' + style + '</style>';
 $("#dashboard").append(html);
 
-$("#tbl-customers tbody").on('click', 'tr .fas', async (event: Event)=>{
+$("#tbl-customers tbody").on('click', 'tr .fas', async(event: Event)=>{
     let id = ($(event.target as any).parents("tr").find("td:first-child").text());
-    try{
+    try {
         await deleteCustomer(id);
-        alert("Customer has been deleted successfully");
+        alert("Customer has Deleted Successfully");
         loadAllCustomers();
-    }catch(error){
+    } catch (error) {
         alert("Failed to delete the customer");
     }
 });
@@ -34,7 +34,7 @@ function old_loadAllCustomers(): void {
     getAllCustomers().then(function (customers: Array<Customer>) {
         for (const customer of customers) {
             $("#tbl-customers tbody").append(`
-                <tr>
+                <tr> 
                     <td>${customer.id}</td>
                     <td>${customer.name}</td>
                     <td>${customer.address}</td>
@@ -57,7 +57,7 @@ async function loadAllCustomers() {
 
     let customers = await getAllCustomers();
 
-    if (dataTable) {
+    if(dataTable){
         ($("#tbl-customers") as any).DataTable().destroy();
         $("#tbl-customers tbody tr").remove();
     }
@@ -73,6 +73,8 @@ async function loadAllCustomers() {
         `);
     }
 
+   
+
     dataTable = ($("#tbl-customers") as any).DataTable({
         "info": false,
         "searching": false,
@@ -81,31 +83,27 @@ async function loadAllCustomers() {
         "ordering": false,
     });
 
-    dataTable.page(Math.ceil(customers.length / 5)-1).draw(false);
+    dataTable.page(Math.ceil(customers.length/5)-1).draw(false);
 }
 
 loadAllCustomers();
 
 $("#btn-save").click(async () => {
-
     let id = <string>$("#txt-id").val();
     let name = <string>$("#txt-name").val();
     let address = <string>$("#txt-address").val();
 
-    /* Font-end validation */
-    if (!id.match(/^C\d{3}$/) || name.trim().length === 0 || address.trim().length === 0) {
-        alert("Invalid cutomer infromation");
+    if(!id.match(/^C\d{3}$/) || name.trim().length===0 || address.trim().length===0){
+        alert("Invalid Customer Information");
         return;
     }
 
-    try {
-        await saveCustomer(new Customer(id, name, address));
+    try{
+        await saveCustomer(new Customer(id,name,address));
         alert("Customer Saved");
         loadAllCustomers();
-    } catch (error) {
+    }catch(error){
         alert("Failed to save the customer");
+        console.log(error);
     }
 });
-
-
-

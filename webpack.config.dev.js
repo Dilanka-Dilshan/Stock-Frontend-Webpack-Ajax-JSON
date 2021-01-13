@@ -1,3 +1,7 @@
+/*
+ * @author : Dilanka Dilshan<ehd.dilanka@gmail.com>
+ */
+
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { default: merge } = require("webpack-merge")
 
