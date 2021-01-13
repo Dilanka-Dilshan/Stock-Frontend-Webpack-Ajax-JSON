@@ -20,27 +20,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5c6642d-ef2c-48ee-8008-c9515d8446e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/asset/06b9d19ced8d17f3d5cb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/asset/08f9891a6f44d9546678.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/asset/0fea24969112a781acd2.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/asset/1008b5226941c24f4468.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/asset/1069ea55beaa01060302.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/asset/10ecefc282f2761808bf.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/asset/1495f578452eb676f730.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/asset/371dbce0dd46bd4d2033.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/asset/3a24a60e7f9c6574864a.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/asset/3ceb50e7bcafb577367c.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/asset/46fdbd2d897f8824e63c.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/asset/c967a94cfbe2b06627ff.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/asset/dc2cbadd690e1d4b2c9c.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/asset/e33e2cf6e02cac2ccb77.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/asset/ec82f282c7f54b637098.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.16c4071d671f74c3fb84.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.16c4071d671f74c3fb84.bundle.min.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="SCSS File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lgDmRgEiDVqq8zU6kNnbR9fJmK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -52,6 +87,11 @@
       <updated>1608009999410</updated>
       <workItem from="1608010000966" duration="186000" />
       <workItem from="1610554127150" duration="31000" />
+      <workItem from="1610554414299" duration="1004000" />
+      <workItem from="1610555483978" duration="745000" />
+      <workItem from="1610556243662" duration="130000" />
+      <workItem from="1610556395466" duration="7000" />
+      <workItem from="1610556613618" duration="882000" />
     </task>
     <servers />
   </component>
@@ -68,6 +108,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="696" y="417" width="518" height="280" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1608010176266">
