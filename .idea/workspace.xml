@@ -21,25 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a5c6642d-ef2c-48ee-8008-c9515d8446e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/06b9d19ced8d17f3d5cb.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/08f9891a6f44d9546678.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/0fea24969112a781acd2.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/1008b5226941c24f4468.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/1069ea55beaa01060302.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/10ecefc282f2761808bf.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/1495f578452eb676f730.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/371dbce0dd46bd4d2033.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/3a24a60e7f9c6574864a.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/3ceb50e7bcafb577367c.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/46fdbd2d897f8824e63c.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/c967a94cfbe2b06627ff.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/dc2cbadd690e1d4b2c9c.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/e33e2cf6e02cac2ccb77.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/asset/ec82f282c7f54b637098.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.16c4071d671f74c3fb84.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.16c4071d671f74c3fb84.bundle.min.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +73,8 @@
       <workItem from="1610556243662" duration="130000" />
       <workItem from="1610556395466" duration="7000" />
       <workItem from="1610556613618" duration="882000" />
+      <workItem from="1610558060888" duration="69000" />
+      <workItem from="1610558143492" duration="17000" />
     </task>
     <servers />
   </component>
